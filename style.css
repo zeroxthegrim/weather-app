@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background: url("https://images.pexels.com/photos/912364/pexels-photo-912364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-family: "Mandali";
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding:25px;
+    border-radius: 8px;
+    width:320px;
+    text-align:center;
+    background-color:rgba(208, 211, 209, 0.5);
+}
+
+#timezone, .temperature-section, .icon {
+    margin-bottom:40px;
+}
+
+.temperature-section {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#temperature {
+    font-size: 40px;
+}
+
+#descr {
+    font-size:21px;
+}
+
+.celsius {
+    font-size:40px;
+    margin-left:10px;
+}
+
+.icon {
+    width:50%;
+    align-self:center;
+    
+}
+
